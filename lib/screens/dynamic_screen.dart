@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:your_app_name/screens/account_settings_screen.dart';
 import 'community_screen.dart';
 import 'calendar_screen.dart';
 import 'main_screen.dart';
 import 'reddit_screen.dart';
+import 'account_settings_screen.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -19,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
     const CalendarScreen(),
     const CommunityScreen(),
     RedditScreen(),
-    const Placeholder(),
+    const AccountSettingsScreen(),
     
   ];
 

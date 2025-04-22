@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'widgets/community_widget.dart';
 
-import 'screens/dynamic_screen.dart'; // <-- Make sure this import is correct
+import 'screens/login_page.dart'; // <-- Make sure this import is correct
 
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'SF Pro Display',
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: const HomeScreen(),
+      home: const LoginPage(),
     );
   }
 }
