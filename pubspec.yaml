@@ -1,8 +1,6 @@
 name: your_app_name
 description: Your app description
 
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none"
 
 version: 1.0.0+1
@@ -14,13 +12,18 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  http: ^0.13.6  # or latest version
-
+  http: ^0.13.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
 
 flutter:
   uses-material-design: true
@@ -46,7 +49,6 @@ flutter:
         - asset: assets/fonts/SF-Pro-Text-Semibold.otf
           weight: 600
 
-  
   assets:
     - assets/images/post1.jpg
     - assets/images/post2.jpg
@@ -83,9 +85,4 @@ flutter:
     - assets/images/gdg.png
     - assets/images/mohit.png
     - assets/images/endterm.png
-
-    
-
-
-
-
+    - assets/images/app_icon.png  # launcher icon 
