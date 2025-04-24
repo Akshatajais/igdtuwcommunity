@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _screens =   [
-    const FirstScreen(),
+    const MainScreen(),
     const CalendarScreen(),
     const CommunityScreen(),
     RedditScreen(),
